@@ -1,3 +1,30 @@
 * {
   box-sizing: border-box;
 }
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+section {
+  padding: 10px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+}
