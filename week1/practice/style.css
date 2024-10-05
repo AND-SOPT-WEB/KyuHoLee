@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  position: relative;
+}
+
+section {
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid #6d6d6d;
+  width: fit-content;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+ul li:nth-child(1) {
+  background-color: #ffcccc; /* 피자 */
+}
+
+ul li:nth-child(2) {
+  background-color: #ccffcc; /* 치킨 */
+}
+
+ul li:nth-child(3) {
+  background-color: #ccccff; /* 라면 */
+}
+
+ul li:nth-child(4) {
+  background-color: #ffcc99; /* 엽떡 */
+}
+
+ul li:nth-child(5) {
+  background-color: #ffebcc;
+}
+
+li {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+input[type="checkbox"] {
+  accent-color: black;
+}
+
+a {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+
+  font-size: 1rem;
+}
